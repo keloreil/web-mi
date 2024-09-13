@@ -66,3 +66,51 @@ ul li{
 }
 
 /*小米导航栏结束*/
+
+/*小米搜索栏布局开始*/
+.mi3{
+	height: 100px;
+	width: 100%;
+}
+.ss_left{
+	height: 100px;
+	width: 850px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.ss_left li{
+	float: left;
+	line-height: 100px;
+	margin-left: 22px;
+}
+.ss_left .milog{
+	margin-left: 0px;
+	margin-top: 24px;
+}
+.ss_left .micz{
+	margin-top: 24px;
+}
+.ss_left a{
+	font-size: 16px;
+	color: #333333;
+	text-decoration: none;
+}
+.ss_right{
+	float: right;
+	line-height: 100px;
+}
+.findk{
+	width: 245px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+	position: relative;
+	top: -1px;
+	left: 6px;
+}
+.findsub{
+	width: 52px;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+	background-color: #FFFFFF;	
+}
+/*小米搜索栏布局结束*/
